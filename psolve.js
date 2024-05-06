@@ -8,7 +8,11 @@
 
 */
 
-
+//1st assignment
 function footToMile(n){
-    
+    let mile = n/5280;
+    return mile;
 }
+
+let result = footToMile(69);
+console.log(result);
